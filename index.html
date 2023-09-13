@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-heading">GRADIENT GENERATOR</div>
+    </header>
+    <div class="top">
+      <div class="gradient-color" id="gradient-color"></div>
+      <div class="color-pickers">
+        <!-- Your color pickers right below the gradient preview -->
+        <div class="color-picker">
+          <label for="color-picker-1">Select color 1:</label>
+          <input type="color" id="color-picker-1" onchange="createGradient()" />
+        </div>
+        <div class="color-picker">
+          <label for="color-picker-2">Select color 2:</label>
+          <input type="color" id="color-picker-2" onchange="createGradient()" />
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div style="display: flex; justify-content: center">
+        <button class="arrow-button" onclick="changeDirection('to top')">
+          &uarr;
+        </button>
+        <button class="arrow-button" onclick="changeDirection('to right')">
+          &rarr;
+        </button>
+        <button class="arrow-button" onclick="changeDirection('to bottom')">
+          &darr;
+        </button>
+        <button class="arrow-button" onclick="changeDirection('to left')">
+          &larr;
+        </button>
+      </div>
+      <div class="choose-direction-text">Choose Gradient Direction</div>
+      <h4>CSS Code:</h4>
+      <pre id="css-code"></pre>
+    </div>
+
+    <footer>
+      <div class="name">Vikram Thunga</div>
+      <div class="contact-info">
+        <a href="https://www.linkedin.com/in/vikramgirishthunga/">LinkedIn</a>
+        <a href="https://github.com/vikramgt/">GitHub</a>
+      </div>
+      <div class="contact-info">
+        <span>Ph: 8088528713</span>
+        <span>Location: India</span>
+        <span>Email: vikramgirishthunga@gmail.com</span>
+      </div>
+    </footer>
+  </body>
+</html>
