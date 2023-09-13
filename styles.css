@@ -1,0 +1,128 @@
+
+  /* Styles for the arrow buttons */
+  .arrow-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ae3b3b;
+    font-size: 36px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .arrow-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+/* Styles for the body */
+body {
+    background-color: #ffffff;    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body stretches to at least the full viewport height */
+
+  }
+  
+  /* Styles for the footer */
+  footer {
+    background-color: #333; /* Dark contrast color for the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; /* Push the footer to the bottom of the page */
+  }
+  
+  /* Styles for the contact information */
+  .contact-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the name */
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .color-pickers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed for vertical spacing */
+    color: #fff;
+    /* Rectangle box styling */
+    background-color: #333; /* Same as footer's background color */
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 3D shadow effect */
+  }
+  
+  /* Updated Styles for the color pickers */
+  .color-picker {
+    margin: 5px;
+  }
+  .color-picker1 {
+cursor: pointer;  
+}
+  .color-picker2 {
+    cursor: pointer;
+  }
+
+/* Styles for the header */
+/* Styles for the header */
+header {
+    background-color: #333; /* Dark contrast color for the header, same as the footer */
+    color: #fff; /* Text color for the header */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Style for the header heading */
+  .header-heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  /* Style for the text below direction arrows */
+.choose-direction-text {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gradient-color {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .bottom {
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+    /* Styles for the CSS code */
+pre {
+    padding: 16px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    }
+  
+  /* Styles for the CSS code and arrow buttons */
+  h4 {
+    margin-bottom: 10px;
+  }
+  
