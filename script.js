@@ -13,7 +13,7 @@ function createGradient() {
   
     // Update the CSS code for the gradient
     document.getElementById("css-code").innerHTML =
-      ".gradient-color { \n  background: " + gradient + ";\n}";
+      " \n  background: " + gradient + ";\n";
   }
   
 function changeDirection(direction) {
